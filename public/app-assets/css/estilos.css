@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* div del espacio para redes sociales */
+.alineacion{
+    background-color: black;
+}
+
+/* iconos */
+.alineacion li{
+    list-style-type: none;
+}
+/* espacio entre imagenes  */
+.alineacion img{
+    margin:0 5px;
+}
+
+.header-logo{
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 40px;
+    top: 50%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 501;
+}
+
+

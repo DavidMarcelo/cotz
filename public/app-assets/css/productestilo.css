@@ -1,0 +1,99 @@
+body{
+    /* Ubicación de la imagen */
+    background-image: url(/app-assets/imagenes/pf2.jpe);
+    /*pf2.jpe   pf3.jpg*/
+    /* Para dejar la imagen de fondo centrada, vertical y
+    horizontalmente */
+    background-position: center center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+    /* Se muestra un color de fondo mientras se está cargando la imagen
+    de fondo o si hay problemas para cargarla */
+    /*background-color: ;*/
+}
+
+.container{
+    background-position: center;
+    background: #333;
+    color: white;
+    opacity: 70%;
+}
+
+
+th, td{
+    border: 1px solid #000;
+}
+
+
+/*-----------------------------*/
+#main-header {
+	background: #333;
+	color: white;
+    height: 90px;
+    opacity: 85%;
+}	
+#main-header a {
+    color: white;
+}
+ 
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+/*#logo-header:hover {
+    color: #0b76a6;
+}*/
+	
+#logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+#logo-header .site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 1.0em;
+    color: #999;
+}
+
+#logo-header .site-desc:hover {
+    color: #0b76a6;
+}
+	
+ 
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+	
+nav ul li {
+    display: inline-block;
+    line-height: 90px;
+}
+			
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+			
+nav ul li a:hover {
+    background:  #b14832 ;
+}
