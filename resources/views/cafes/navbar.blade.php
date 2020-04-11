@@ -13,9 +13,9 @@
         <label for="menubtn" class="menulabel" id="menulabel"><img src="{{asset('app-assets/imagenes/menu.png')}}" height="20px"></label>
         <div class="menu">
             <div class="texturl">
-                <a href="/productos">Nuestro Café</a>
-                <a href="">Compra Online</a>
-                <a href="">Nosotros</a>
+                <a href="/tiendita">Nuestro Café</a>
+                <a href="/tienda">Compra Online</a>
+                <a href="/nosotros">Nosotros</a>
                 @guest
                 <a href="{{URL::route('login')}}" id="loginlabel">Iniciar Sesion</a>
                 @if (Route::has('register'))

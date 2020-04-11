@@ -25,7 +25,7 @@ class CafesController extends Controller
     }
 
 
-    public function tienda()
+    public function tiendita()
     {
         //
         return view('tienda');
