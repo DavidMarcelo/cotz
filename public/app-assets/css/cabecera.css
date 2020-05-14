@@ -1,0 +1,72 @@
+.navbar{ 
+    background: rgb(160, 14, 150);
+    opacity: 70%;
+}
+
+.nav-brand{
+    padding-top: 1%;
+    position: absolute;
+}
+
+.circulo_rojo{
+	position: absolute;
+	top: 7px;
+	right: 81%;
+	width: 20px;
+	height: 20px;
+	background: red;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.circulo_rojo > div > div{
+	color: #FFFFFF;
+    line-height: 0.75;
+    margin-left: 10px;
+}
+/*.circulo_rojo > div > div:first-of-type{
+    margin-top: 35px;
+	font-size: 14px;
+	font-weight: 100;
+}*/
+.circulo_rojo > div > div:last-of-type{
+	font-size: 10px;
+    margin-top: 6px;
+    margin-left: 35%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-brand{
+    /*font-style: normal;*/
+    padding: 0 30px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.navbar-collapse{
+    float: right;
+}
+
+.navbar-collapse ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 10px;
+}
+	
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+}
+			
+nav ul li a {
+    color: #ffffff;
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: black;
+    background:  #ffffff ;
+}

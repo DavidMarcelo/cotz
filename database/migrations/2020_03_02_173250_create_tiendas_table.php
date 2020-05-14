@@ -15,6 +15,11 @@ class CreateTiendasTable extends Migration
     {
         Schema::create('tiendas', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('id_producto');
+            $table->string('Nombre');
+            $table->string('Precio');
+            $table->string('cantidad');
+            $table->string('total');
             $table->timestamps();
         });
     }

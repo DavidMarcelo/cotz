@@ -19,20 +19,7 @@
 //Route::get('/nosotros',['as' => 'nosotros', 'uses' => 'CafesController@nosotros']);
 Route::get('/','CafesController@index');
 Route::get('/nosotros','CafesController@nosotros');
-Route::get('/tiendita','CafesController@tiendita');
-//Route::resource('/tienda','TiendaController');
-Route::post('/tienda', function(){
-    return view('tienda.index');
-});
-Route::get('/tienda', function(){
-    return view('tienda.index');
-});
-Route::get('/tienda/mostrarCarrito', function(){
-    return view('tienda.mostrarCarrito');
-});
-Route::post('/tienda/mostrarCarrito', function(){
-    return view('tienda.mostrarCarrito');
-});
+Route::resource('/tienda','TiendaController');
 Route::resource('cafes', 'CafesController');
 Route::resource('/productos', 'ProductosController');
 // Route::get('/nosotros',['as' => 'registro', 'uses' => 'RegisterController@registro']);

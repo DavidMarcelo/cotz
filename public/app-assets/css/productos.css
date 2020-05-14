@@ -1,0 +1,35 @@
+body{
+    /*background: yellowgreen;*/
+}
+
+.fila{
+    margin-left: 30%;
+}
+
+.columna{
+    /*background: violet;*/
+    border-color: #000000;
+    border-radius: 5px;
+    border-bottom: #000000;
+    border-top: #000000;
+    border-left: #000000;
+    border-right: #000000;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.btnE{
+    margin-left: 15%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.btnR{
+    margin-left: 20%;
+
+}
+
+.iman{
+    position: absolute;
+    margin-left: 29%;
+}
