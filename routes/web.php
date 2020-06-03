@@ -19,9 +19,10 @@
 //Route::get('/nosotros',['as' => 'nosotros', 'uses' => 'CafesController@nosotros']);
 Route::get('/','CafesController@index');
 Route::get('/nosotros','CafesController@nosotros');
-Route::resource('/tienda','TiendaController');
+Route::get('/tiendita','CafesController@tiendita');
+// Route::get('/opciones','CafesController@opcion');
+Route::resource('/tienda','TiendaController')->middleware('auth');
 Route::resource('cafes', 'CafesController');
-Route::resource('/productos', 'ProductosController');
-// Route::get('/nosotros',['as' => 'registro', 'uses' => 'RegisterController@registro']);
+Route::resource('/productos', 'ProductosController')->middleware('auth');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');

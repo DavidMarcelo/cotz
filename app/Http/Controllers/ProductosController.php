@@ -35,6 +35,13 @@ class ProductosController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request){
+        $this->validate($request,[
+            'nombre'=>'required',
+            'tipo'=>'required',
+            'imagen'=>'required',
+            'descripcion'=>'required',
+            'Cantidad'=>'required'
+        ]);
         //$datosProductos = request()->all();
         $datosProductos = request()->except('_token');
         //Para insertar la foto
