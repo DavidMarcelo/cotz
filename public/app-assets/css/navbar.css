@@ -26,6 +26,14 @@
     align-items: center;
     justify-content: space-around;
 }
+.listausers{
+    display: none;
+    position: absolute;
+    background: #222;
+    z-index: 109;
+    padding: 20px 10px 20px 10px;
+    background-color: 2f2f2f;
+}
 a{
     color: white;
     text-decoration: none;
@@ -42,6 +50,12 @@ a{
     padding-right: 25px;
     border: 0px;
 
+}
+.username:hover  > .listausers{
+    display: block;
+}
+.listausers:hover{
+    display: block;
 }
 #loginlabel{
     background-color:  cadetblue;

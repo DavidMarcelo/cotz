@@ -25,6 +25,8 @@
                 <div class="username">
                     <img src="{{asset('app-assets/imagenes/user.png')}}" height="15px">
                     <a href="">{{ Auth::user()->name }}</a>
+                    <div class="listausers"><a href="/productos">Mis productos</a><br><br>
+                    <a href="{{url('productos/create')}}">Agregar productos</a></div>
                 </div>
                 <a class="logoutlabel" href="{{ route('logout') }}" 
                 onclick="event.preventDefault();    document.getElementById('logout-form').submit();">
